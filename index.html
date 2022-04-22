@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="colocar aqui descrição do site">
+    <meta name="keywords" content="aqui coloca as palavras que voce acha que são chaves para a busca do site ">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="aqui colocar o nome da pessoa criadora do site">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100&family=Send+Flowers&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9fddef53e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+    <title>SITE DESIGN RESPONSIVO</title>
+    
+</head>
+   <body>
+       <header class="cabecalho">
+        <a href="index.html"><h1 class="logo"> Soluções Digitais</h1></a>
+        <button class="btn-menu"><i class="fa fa-bars"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times" ></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="banner">
+    <div class="title">
+        <h2>Lorem, ipsum dolor.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatem?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Facere, dolorem!</h3>
+    </div>
+    <div class="buttons">
+        <button class="btn-cadastrar">Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+        <button class="btn-sobre">Sobre <i class="fa fa-question-circle"></i></button>
+    </div>
+</div>
+
+<main class="servicos">
+    <article class="servico">
+        <a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+        <div class="inner">
+            <a href="#">Campanhas publicitárias</a>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ab dicta soluta totam voluptate nostrum repudiandae facere nobis, incidunt commodi cumque voluptates excepturi vero, eveniet consequatur accusamus dolorum, esse quo sequi! Quasi obcaecati cupiditate necessitatibus voluptatem neque molestiae rem pariatur delectus, autem corporis explicabo, provident eos modi quo dignissimos commodi.</p>
+        </div>
+    </article>
+    <article class="servico">
+        <a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+        <div class="inner">
+            <a href="#">Marketing Digital</a>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ab dicta soluta totam voluptate nostrum repudiandae facere nobis, incidunt commodi cumque voluptates excepturi vero, eveniet consequatur accusamus dolorum, esse quo sequi! Quasi obcaecati cupiditate necessitatibus voluptatem neque molestiae rem pariatur delectus, autem corporis explicabo, provident eos modi quo dignissimos commodi.</p>
+        </div>
+    </article>
+
+    <article class="servico">
+        <a href="#"><img src="img/cs.jpg" alt="Criações de Site"></a>
+        <div class="inner">
+            <a href="#">"Criações de Sites</a>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ab dicta soluta totam voluptate nostrum repudiandae facere nobis, incidunt commodi cumque voluptates excepturi vero, eveniet consequatur accusamus dolorum, esse quo sequi! Quasi obcaecati cupiditate necessitatibus voluptatem neque molestiae rem pariatur delectus, autem corporis explicabo, provident eos modi quo dignissimos commodi.</p>
+        </div>
+    </article>
+</main>
+
+<!--News-->
+<section class="newsletter">
+    <h2>Inscreva-se agora! </h2>
+    <h3>Receba novidades, dicas e muitos mais.</h3>
+    <form>
+        <input type="email" name="email" placeholder="Seu email">
+        <button>Cadastrar</button>
+    </form>
+</section>
+
+<!--RODAPÉ-->
+<footer class="rodape">
+    <div class="social-icons"> 
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+    </div>
+    <p class="copyright">
+        Copyright © NodeProp. Todos os direitos reservados.
+    </p>
+
+</footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+    
+  </body>
+</html>
